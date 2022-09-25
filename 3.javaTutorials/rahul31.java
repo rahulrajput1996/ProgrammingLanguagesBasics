@@ -1,6 +1,6 @@
 public class rahul31 {
 
-    public static void myfun() {
+    static void myfun() {
         System.out.println("i am rahul");
 
     }
@@ -23,7 +23,7 @@ public class rahul31 {
         return x + y;
     }
 
-    public int mysum2(int x, int y) {
+    int mysum2(int x, int y) {
         return x + y;
     }
 

@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class rahul25 {
@@ -34,5 +35,10 @@ public class rahul25 {
             System.out.println(factorial);
 
         }
+
+        Random mynum = new Random();
+        int myrandomnumber = mynum.nextInt(3);
+        System.out.println(myrandomnumber);
+
     }
 }

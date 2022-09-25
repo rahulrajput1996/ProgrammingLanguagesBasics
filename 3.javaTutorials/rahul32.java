@@ -16,7 +16,7 @@ public class rahul32 {
         myfun(marks);
         System.out.println(marks[0]);
 
-        int yoursum = mysum(7);
+        int yoursum = mysum(7,3,2);
         System.out.println(yoursum);
     }
 }
