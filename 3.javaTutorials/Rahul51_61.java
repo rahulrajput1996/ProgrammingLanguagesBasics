@@ -176,6 +176,7 @@ public class Rahul51_61 {
             System.out.println(
                     "press 1 to see total book list,2 for issue book list,3 for available book list,press 4 for land user list,press 5 for add book, press 6 for issue book, press 7 for return book,press 8 for quit");
             int id = sc.nextInt();
+            sc.nextLine();
             switch (id) {
                 case 1:
                     college.totalbooklist();
@@ -191,21 +192,21 @@ public class Rahul51_61 {
                     break;
                 case 5:
                     System.out.println("enter book name which u want to add");
-                    String bookname1 = sc.next();
+                    String bookname1 = sc.nextLine();
                     college.addbook(bookname1);
                     break;
                 case 6:
                     System.out.println("enter book name which u want to issue");
-                    String bookname2 = sc.next();
+                    String bookname2 = sc.nextLine();
                     System.out.println("enter your name now");
-                    String user2 = sc.next();
+                    String user2 = sc.nextLine();
                     college.issuebook(bookname2, user2);
                     break;
                 case 7:
                     System.out.println("enter book name which u want to return");
-                    String bookname3 = sc.next();
+                    String bookname3 = sc.nextLine();
                     System.out.println("enter your name now");
-                    String user3 = sc.next();
+                    String user3 = sc.nextLine();
                     college.returnbook(bookname3, user3);
                     break;
                 case 8:
