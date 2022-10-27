@@ -8,7 +8,8 @@
     "istream": "cpp",
     "stdexcept": "cpp",
     "system_error": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "cmath": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled"
 }
