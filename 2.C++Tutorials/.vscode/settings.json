@@ -9,7 +9,8 @@
     "stdexcept": "cpp",
     "system_error": "cpp",
     "typeinfo": "cpp",
-    "cmath": "cpp"
+    "cmath": "cpp",
+    "new": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled"
 }
