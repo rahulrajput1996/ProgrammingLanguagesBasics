@@ -10,7 +10,9 @@
     "system_error": "cpp",
     "typeinfo": "cpp",
     "cmath": "cpp",
-    "new": "cpp"
+    "new": "cpp",
+    "iosfwd": "cpp",
+    "fstream": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled"
 }
