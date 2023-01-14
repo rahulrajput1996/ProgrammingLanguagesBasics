@@ -1,0 +1,15 @@
+var mynum = 10;
+var mystr = "hello world";
+var mystatement = true;
+var myterm = "kuch bhi";
+var arrstr = ["hello", "world"];
+var arrnum = [10, 200, 30];
+console.log(mynum);
+console.log(mystr);
+console.log(mystatement);
+console.log(myterm);
+console.log(arrstr);
+console.log(arrnum);
+var myspecial;
+myspecial = true;
+console.log(myspecial);

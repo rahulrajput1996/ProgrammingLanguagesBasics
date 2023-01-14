@@ -1,0 +1,16 @@
+{
+  "name": "nodewithtypescript",
+  "version": "1.0.0",
+  "description": "firstWebsite",
+  "main": "app.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon public/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.8.2"
+  }
+}

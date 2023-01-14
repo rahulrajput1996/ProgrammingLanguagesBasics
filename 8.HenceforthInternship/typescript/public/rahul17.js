@@ -1,0 +1,22 @@
+"use strict";
+let a = "rahul";
+console.log(a);
+let b = 10;
+console.log(b);
+let c = 20;
+console.log(c);
+c = "rajat";
+console.log(c);
+let d = [10, 20];
+console.log(d);
+// d.push(4);  will give error
+// console.log(d);
+let data = ["shivam", 100];
+console.log(data);
+data.push(3);
+console.log(data);
+const graph = [10, "shivam"];
+console.log(graph);
+const data2 = [101, 111];
+const [x, y] = data2;
+console.log(x, y);

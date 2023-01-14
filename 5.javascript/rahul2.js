@@ -1,0 +1,13 @@
+console.time("start time");
+console.log("this is first");
+console.log(2 + 5);
+console.log([2, 4, 5, 6]);
+console.log({ name: "harry", channel: 'cwh', salary: 2000 });
+console.table({ name: "harry", channel: 'cwh', salary: 2000 });
+console.assert( 250 > 500, "program terminated hua ki nhi");
+console.log(true);
+console.log(false);
+console.timeEnd("start time");
+console.warn("this is a warning");
+// console.clear();
+console.error("error aagya bhai");
